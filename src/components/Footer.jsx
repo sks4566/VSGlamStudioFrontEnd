@@ -38,7 +38,7 @@ const Footer = ({ site }) => {
         </div>
       </div>
       <div className="border-t border-white/10 py-4 text-center text-xs text-white/60">
-        © {new Date().getFullYear()} {site?.brand?.name || "VS Glam Studio"}. All rights reserved.
+        © {new Date().getFullYear()} {site?.brand?.name || "VS Glam Studio"}. All right reserved.
       </div>
     </footer>
   );
