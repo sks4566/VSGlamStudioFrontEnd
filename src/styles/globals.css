@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Manrope", system-ui, sans-serif;
+  background: #f9f6f3;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Cormorant Garamond", serif;
+}
+
+.section-title {
+  @apply text-4xl md:text-5xl font-semibold tracking-tight;
+}
+
+.section-kicker {
+  @apply uppercase text-xs tracking-[0.3em] text-rose font-semibold;
+}
+
+.glass-card {
+  @apply bg-white/70 backdrop-blur-sm border border-white/60 shadow-card;
+}
+
+.button-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-ink text-white px-6 py-3 text-sm font-semibold tracking-wide transition hover:bg-rose;
+}
+
+.button-secondary {
+  @apply inline-flex items-center justify-center rounded-full border border-ink/20 px-6 py-3 text-sm font-semibold tracking-wide transition hover:border-rose hover:text-rose;
+}
+
+.input-field {
+  @apply w-full rounded-2xl border border-ink/10 bg-white px-4 py-3 text-sm outline-none focus:border-rose focus:ring-2 focus:ring-rose/20;
+}
+
+.fade-up {
+  @apply animate-fade-up;
+}
