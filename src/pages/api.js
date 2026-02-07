@@ -1,6 +1,7 @@
 import { mockFetch } from "../data/mockData";
 
-const DEFAULT_BASE = "http://localhost:8082";
+const DEFAULT_BASE = "
+const DEFAULT_BASE = "https://vsglamstudiobackend.onrender.com";
 
 export const getBaseUrl = () => {
   const fromEnv = import.meta.env.VITE_API_BASE_URL;
