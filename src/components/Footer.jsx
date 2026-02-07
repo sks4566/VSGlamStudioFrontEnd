@@ -11,7 +11,7 @@ const Footer = ({ site }) => {
         <div>
           <h4 className="text-sm uppercase tracking-[0.3em] text-white/60">Studio</h4>
           <p className="mt-3 text-sm text-white/80">
-            {site?.contact?.studio || "Studio 24, Arera Colony, Bhopal"}
+            {site?.contact?.studio || "Studio 24, Arera Colony, Mopal"}
           </p>
           <p className="mt-2 text-sm text-white/80">
             {site?.contact?.phone || "+91 99999 12345"}
