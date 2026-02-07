@@ -1,6 +1,4 @@
 import { mockFetch } from "../data/mockData";
-
-const DEFAULT_BASE = "
 const DEFAULT_BASE = "https://vsglamstudiobackend.onrender.com";
 
 export const getBaseUrl = () => {
