@@ -7,6 +7,7 @@ export const getBaseUrl = () => {
   return fromEnv.replace(/\/$/, "");
 };
 
+
 const shouldUseMock = () => import.meta.env.VITE_USE_MOCK === "true";
 
 export const fetchJson = async (path, options = {}) => {
